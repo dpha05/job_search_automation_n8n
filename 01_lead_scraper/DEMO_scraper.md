@@ -67,6 +67,7 @@
 * **Manual Source Bridge:** Connecting a Google Sheets flow for manual entry of leads from newsletters and other sources directly into the pipeline.
 * **Active URL monitor:** Adding a validation sub-flow to perform daily status checks on live URLs, automatically flagging expired listings as `archived` in Supabase.
 * **Format Standardization:** Refactoring all event-driven flows to use a standardized Set Node pattern for multi-source data normalization.
+* **Standardize Naming Convention:** Rename all payload fields to use camel_case, snakeCase for code fields and double digit format 01, 02 for numbers.
 
 <br>
 
