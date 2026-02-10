@@ -15,7 +15,7 @@
 
 <br>
 
-![](https://github.com/USER/REPO/raw/main/01_lead_scraper/assets/demo.gif)
+![](https://github.com/dpha05/job_search_automation_n8n/raw/main/01_lead_scraper/assets/demo.gif)
 
 <br>
 
