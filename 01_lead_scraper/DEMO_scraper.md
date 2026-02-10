@@ -15,7 +15,7 @@
 
 <br>
 
-![System Demo](assets/demo.gif)
+<img src="assets/demo.gif" width="100%">
 
 <br>
 
@@ -55,8 +55,8 @@
 <br>
 
 ### 📂 Technical Documentation
-* [**Raw JSON Workflows**](01_lead_scraper/workflows/)
-* [**Detailed Technical README**](README.md)
+* [**Raw JSON Workflows**](workflows/)
+* [**Detailed Technical README**](../README.md)
 
 <br>
 
