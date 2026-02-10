@@ -15,7 +15,7 @@
 
 <br>
 
-<img src="assets/demo.gif" width="100%">
+<video src="assets/demo.mp4" autoplay loop muted playsinline width="100%"></video>
 
 <br>
 
