@@ -78,4 +78,4 @@ An end-to-end autonomous qualification pipeline designed to identify high-signal
 - **Dynamic Weight Calibration:** Moving away from hard-coded 80/20 splits to a config-driven model for real-time adjustments to AI influence vs. semantic similarity.
 
 ## 📄 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
