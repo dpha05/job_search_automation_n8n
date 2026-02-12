@@ -1,11 +1,12 @@
 # 🧠 Phase 2: Lead Qualification 
-**Hybrid weighted AI lead scoring with cosine semantic anchors.**
+**Hybrid weighted AI lead scoring with linear range-stretching and semantic anchors.**
 
 <br>
 
 ### 📊 Highlights
-* **71% Rejection Filter:** Two-stage rejection of irrelevant leads: Regex keyword filter for titles and hybrid 70/30 weighted filtering with AI + Cosine Similarity for descriptions.
-* **Hallucination Prevention:** For important pillars: frontier model **Gemini 3.0** with detailed system prompt, including scoring tiers, few-shot examples and standard value references and for benefits and logistics: lighter **OLlama 4 (Groq)** doing boolean extraction, leaving consistent math to code.
+* **71% Rejection Filter:** Two-stage rejection of irrelevant leads: Regex exclusion for titles and hybrid 70/30 weighted filtering with AI + Cosine Similarity for descriptions.
+* **Scoring Range Adjustment:** Implemented a linear scale correction to counteract AI "conservatism." By re-mapping the model's natural 15-85% output to a full 0-100% spectrum, the system achieves higher variance and clearer tier separation.
+* **Hallucination Prevention:** For important pillars: frontier model **Gemini 3.0** with detailed system prompt, including scoring tiers, few-shot examples and standard value references and for benefits and logistics: lighter **OLlama 4 (Groq)** doing boolean extraction, leaving math logic to consistent code.
 * **Self-Healing Status Sync:** Automated daily sync identifies leads in transient statuses (faulty executions) to ensure fault tolerance and minimize data loss.
 
 <br>
@@ -67,11 +68,9 @@
 ---
 
 ### ✅ Next steps
-* **Auto-Apply Integration:** Researching automated "Quick Apply" triggers for roles hitting the 95th percentile "Rare" score.
-* **Portfolio Matching:** Adding a sub-flow to compare specific job requirements against a vectorized database of my past projects to generate tailored highlights.
-* **Multi-Persona Anchors:** Expanding the Global Anchor system to allow switching between different career personas (e.g., Technical Architect vs. Product Lead).
-* **Local LLM Integration:** Testing Ollama integration for the Boolean branch to move the 33-question check entirely offline, further reducing API costs.
-* **Enhanced Notifications:** Refining Pushover alerts to include a "Deep Link" directly to the job URL and a 1-sentence AI summary of why it was marked as 'Rare'.
+* **Voice-Driven Onboarding:** Developing a "System Personalization" flow where users can record a voice memo to define their career values (7 petals style). The system will transcribe and distill these into dynamic parameters, boolean benefit checks, priority pillars, positive and negative search keywords, ideal and negative job anchors.
+* **Dynamic Weight Calibration:** Based on onboarding dynamically adjust the 70/30 weights and scoring multipliers.
+* **Vectorized Portfolio Matching:** Cross-referencing "High" and "Rare" leads against own CV and experiences to calculate a "Relevant Experience" score.
 
 <br>
 
