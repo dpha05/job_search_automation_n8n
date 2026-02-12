@@ -21,7 +21,7 @@ An end-to-end autonomous qualification pipeline designed to identify high-signal
     - **Stage 2 (The Deep Dive):** A parallel 3-branch scoring architecture evaluating Similarity, Core Pillars (Mission/Responsibilities), and Benefits.
 - **Dual-Strategy Hallucination Prevention:**
     - **High-Context Prompting:** Uses **Gemini 3.0 Flash** with detailed scoring tiers and few-shot examples for mission-critical pillars like **Strategic Autonomy**.
-    - **Boolean Logic Extraction:** Offloads high-volume benefit checks (30+ questions) to **Llama 4 (Groq)**, feeding raw booleans into a **Boring Code Node** for weighted scoring with zero AI-drift.
+    - **Boolean Logic Extraction:** Offloads high-volume benefit checks (33 questions) to **Llama 4 (Groq)**, feeding raw booleans into a **Code Node** for weighted scoring with zero AI-drift.
 - **State-Driven Self-Healing:** A daily 9:00 AM "State Sync" workflow identifies leads stuck in transient statuses (e.g., `passed_title`) and re-routes them back into the processing pipeline for 100% fault tolerance.
 
 ## 🛠️ Tech Stack
