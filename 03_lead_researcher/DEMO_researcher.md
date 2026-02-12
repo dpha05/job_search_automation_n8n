@@ -12,7 +12,7 @@
 
 <br>
 
-![](https://github.com/dpha05/job_search_automation_n8n/raw/main/02_lead_qualifier/assets/demo.png)
+![](https://github.com/dpha05/job_search_automation_n8n/raw/main/03_lead_researcher/assets/demo.png)
 
 <br>
 
